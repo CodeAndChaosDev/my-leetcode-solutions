@@ -4,6 +4,7 @@ class ListNode {
     ListNode(int val) { this.val = val; }
 }
 
+@SuppressWarnings("unused")
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(0); // Dummy node to simplify the code
